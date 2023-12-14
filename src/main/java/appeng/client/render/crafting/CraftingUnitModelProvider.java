@@ -28,7 +28,6 @@ public class CraftingUnitModelProvider extends AbstractCraftingUnitModelProvider
     protected final static Material STORAGE_4K_LIGHT = texture("4k_storage_light");
     protected final static Material STORAGE_16K_LIGHT = texture("16k_storage_light");
     protected final static Material STORAGE_64K_LIGHT = texture("64k_storage_light");
-    protected final static Material STORAGE_256K_LIGHT = texture("256k_storage_light");
     protected final static Material MONITOR_BASE = texture("monitor_base");
     protected final static Material MONITOR_LIGHT_DARK = texture("monitor_light_dark");
     protected final static Material MONITOR_LIGHT_MEDIUM = texture("monitor_light_medium");
@@ -50,7 +49,6 @@ public class CraftingUnitModelProvider extends AbstractCraftingUnitModelProvider
             case STORAGE_4K -> textureGetter.apply(STORAGE_4K_LIGHT);
             case STORAGE_16K -> textureGetter.apply(STORAGE_16K_LIGHT);
             case STORAGE_64K -> textureGetter.apply(STORAGE_64K_LIGHT);
-            case STORAGE_256K -> textureGetter.apply(STORAGE_256K_LIGHT);
             default -> throw new IllegalArgumentException(
                     "Crafting unit type " + this.type + " does not use a light texture.");
         };
@@ -65,7 +63,7 @@ public class CraftingUnitModelProvider extends AbstractCraftingUnitModelProvider
         return switch (type) {
             case UNIT -> new UnitBakedModel(ringCorner, ringSideHor, ringSideVer,
                     spriteGetter.apply(UNIT_BASE));
-            case ACCELERATOR, STORAGE_1K, STORAGE_4K, STORAGE_16K, STORAGE_64K, STORAGE_256K -> new LightBakedModel(
+            case ACCELERATOR, STORAGE_1K, STORAGE_4K, STORAGE_16K, STORAGE_64K -> new LightBakedModel(
                     ringCorner, ringSideHor, ringSideVer, spriteGetter.apply(LIGHT_BASE),
                     this.getLightMaterial(spriteGetter));
             case MONITOR -> new MonitorBakedModel(ringCorner, ringSideHor, ringSideVer,

@@ -13,17 +13,14 @@ item_ids:
 - ae2:cell_component_4k
 - ae2:cell_component_16k
 - ae2:cell_component_64k
-- ae2:cell_component_256k
 - ae2:item_storage_cell_1k
 - ae2:item_storage_cell_4k
 - ae2:item_storage_cell_16k
 - ae2:item_storage_cell_64k
-- ae2:item_storage_cell_256k
 - ae2:fluid_storage_cell_1k
 - ae2:fluid_storage_cell_4k
 - ae2:fluid_storage_cell_16k
 - ae2:fluid_storage_cell_64k
-- ae2:fluid_storage_cell_256k
 ---
 
 # Storage Cells
@@ -38,7 +35,6 @@ item_ids:
 
     <ItemImage id="item_storage_cell_64k" scale="4" />
 
-    <ItemImage id="item_storage_cell_256k" scale="4" />
   </Row>
 
   <Row>
@@ -49,9 +45,7 @@ item_ids:
     <ItemImage id="fluid_storage_cell_16k" scale="4" />
 
     <ItemImage id="fluid_storage_cell_64k" scale="4" />
-
-    <ItemImage id="fluid_storage_cell_256k" scale="4" />
-  </Row>
+ </Row>
 </Column>
 
 Storage Cells are one of the primary methods of storage in Applied Energistics. They go in <ItemLink id="drive" />s
@@ -71,7 +65,6 @@ The [upfront cost of types](../ae2-mechanics/bytes-and-types.md) is such that a 
 | <ItemLink id="item_storage_cell_4k" />   |                                    32,512 |                                      16,640 |
 | <ItemLink id="item_storage_cell_16k" />  |                                   130,048 |                                      66,560 |
 | <ItemLink id="item_storage_cell_64k" />  |                                   520,192 |                                     266,240 |
-| <ItemLink id="item_storage_cell_256k" /> |                                 2,080,768 |                                   1,064,960 |
 
 
 ## Partitioning
@@ -130,9 +123,7 @@ by 4x and costs 3 of the previous tier.
 
   <Row>
     <RecipeFor id="cell_component_64k" />
-
-    <RecipeFor id="cell_component_256k" />
-  </Row>
+ </Row>
 </Column>
 
 # Item Storage Cells
@@ -150,9 +141,7 @@ Item storage cells can hold up to 63 distinct types of items, and are available 
 
   <Row>
     <Recipe id="network/cells/item_storage_cell_64k_storage" />
-
-    <Recipe id="network/cells/item_storage_cell_256k_storage" />
-  </Row>
+ </Row>
 </Column>
 
 ## Portable Item Storage
@@ -176,7 +165,6 @@ In addition to the upgrade cards all cells can receive, these also accept <ItemL
   <Row>
     <RecipeFor id="portable_item_cell_64k" />
 
-    <RecipeFor id="portable_item_cell_256k" />
   </Row>
 </Column>
 
@@ -196,7 +184,6 @@ Fluid storage cells can hold up to 5 distinct types of fluids, and are available
   <Row>
     <Recipe id="network/cells/fluid_storage_cell_64k_storage" />
 
-    <Recipe id="network/cells/fluid_storage_cell_256k_storage" />
   </Row>
 </Column>
 
@@ -221,7 +208,6 @@ In addition to the upgrade cards all cells can receive, these also accept <ItemL
   <Row>
     <RecipeFor id="portable_fluid_cell_64k" />
 
-    <RecipeFor id="portable_fluid_cell_256k" />
   </Row>
 </Column>
 

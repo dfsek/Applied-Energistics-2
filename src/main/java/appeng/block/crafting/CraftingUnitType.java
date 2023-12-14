@@ -11,7 +11,6 @@ public enum CraftingUnitType implements ICraftingUnitType {
     STORAGE_4K(4),
     STORAGE_16K(16),
     STORAGE_64K(64),
-    STORAGE_256K(256),
     MONITOR(0);
 
     private final int storageKb;
@@ -39,7 +38,6 @@ public enum CraftingUnitType implements ICraftingUnitType {
             case STORAGE_4K -> AEBlocks.CRAFTING_STORAGE_4K;
             case STORAGE_16K -> AEBlocks.CRAFTING_STORAGE_16K;
             case STORAGE_64K -> AEBlocks.CRAFTING_STORAGE_64K;
-            case STORAGE_256K -> AEBlocks.CRAFTING_STORAGE_256K;
             case MONITOR -> AEBlocks.CRAFTING_MONITOR;
         };
         return definition.asItem();

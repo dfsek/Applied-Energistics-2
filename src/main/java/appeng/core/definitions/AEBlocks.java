@@ -186,7 +186,6 @@ public final class AEBlocks {
     public static final BlockDefinition<CraftingUnitBlock> CRAFTING_STORAGE_4K = craftingBlock("4k Crafting Storage",AEBlockIds.CRAFTING_STORAGE_4K, () -> new CraftingUnitBlock(CraftingUnitType.STORAGE_4K), () -> AEItems.CELL_COMPONENT_4K);
     public static final BlockDefinition<CraftingUnitBlock> CRAFTING_STORAGE_16K = craftingBlock("16k Crafting Storage", AEBlockIds.CRAFTING_STORAGE_16K, () -> new CraftingUnitBlock(CraftingUnitType.STORAGE_16K), () -> AEItems.CELL_COMPONENT_16K);
     public static final BlockDefinition<CraftingUnitBlock> CRAFTING_STORAGE_64K = craftingBlock("64k Crafting Storage", AEBlockIds.CRAFTING_STORAGE_64K, () -> new CraftingUnitBlock(CraftingUnitType.STORAGE_64K), () -> AEItems.CELL_COMPONENT_64K);
-    public static final BlockDefinition<CraftingUnitBlock> CRAFTING_STORAGE_256K = craftingBlock("256k Crafting Storage", AEBlockIds.CRAFTING_STORAGE_256K, () -> new CraftingUnitBlock(CraftingUnitType.STORAGE_256K), () -> AEItems.CELL_COMPONENT_256K);
     public static final BlockDefinition<CraftingMonitorBlock> CRAFTING_MONITOR = craftingBlock("Crafting Monitor",AEBlockIds.CRAFTING_MONITOR, () -> new CraftingMonitorBlock(CraftingUnitType.MONITOR), () -> AEParts.STORAGE_MONITOR);
 
     private static <T extends Block> BlockDefinition<T> craftingBlock(String englishName, ResourceLocation id, Supplier<T> blockSupplier, Supplier<ItemLike> disassemblyExtra) {

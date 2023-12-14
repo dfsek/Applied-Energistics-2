@@ -32,7 +32,7 @@ public class BasicInventoryTest {
      */
     @Test
     void testFluidExtract() {
-        var item = AEItems.FLUID_CELL_256K.asItem();
+        var item = AEItems.FLUID_CELL_64K.asItem();
         var stack = new ItemStack(item);
         var cell = StorageCells.getCellInventory(stack, null);
         Objects.requireNonNull(cell);

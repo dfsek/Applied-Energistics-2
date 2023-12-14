@@ -15,8 +15,6 @@ navigation:
     <ItemImage id="item_storage_cell_16k" scale="4" />
 
     <ItemImage id="item_storage_cell_64k" scale="4" />
-
-    <ItemImage id="item_storage_cell_256k" scale="4" />
   </Row>
 
 [Storage Cells](../items-blocks-machines/storage_cells.md) are defined by both *bytes* and *types*. Bytes, like in

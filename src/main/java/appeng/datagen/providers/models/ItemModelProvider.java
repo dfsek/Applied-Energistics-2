@@ -48,7 +48,6 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
         storageCell(AEItems.ITEM_CELL_4K, "item/item_storage_cell_4k");
         storageCell(AEItems.ITEM_CELL_16K, "item/item_storage_cell_16k");
         storageCell(AEItems.ITEM_CELL_64K, "item/item_storage_cell_64k");
-        storageCell(AEItems.ITEM_CELL_256K, "item/item_storage_cell_256k");
         flatSingleLayer(AEItems.CERTUS_QUARTZ_CRYSTAL, "item/certus_quartz_crystal");
         flatSingleLayer(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED, "item/certus_quartz_crystal_charged");
         flatSingleLayer(AEItems.CERTUS_QUARTZ_DUST, "item/certus_quartz_dust");
@@ -70,7 +69,6 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
         storageCell(AEItems.FLUID_CELL_4K, "item/fluid_storage_cell_4k");
         storageCell(AEItems.FLUID_CELL_16K, "item/fluid_storage_cell_16k");
         storageCell(AEItems.FLUID_CELL_64K, "item/fluid_storage_cell_64k");
-        storageCell(AEItems.FLUID_CELL_256K, "item/fluid_storage_cell_256k");
         flatSingleLayer(AEItems.FLUID_CELL_CREATIVE, "item/creative_fluid_cell");
         flatSingleLayer(AEItems.FLUID_CELL_HOUSING, "item/fluid_cell_housing");
         flatSingleLayer(AEItems.FLUIX_CRYSTAL, "item/fluix_crystal");
@@ -84,7 +82,6 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
         flatSingleLayer(AEItems.CELL_COMPONENT_1K, "item/cell_component_1k");
         flatSingleLayer(AEItems.CELL_COMPONENT_4K, "item/cell_component_4k");
         flatSingleLayer(AEItems.CELL_COMPONENT_64K, "item/cell_component_64k");
-        flatSingleLayer(AEItems.CELL_COMPONENT_256K, "item/cell_component_256k");
         flatSingleLayer(AEItems.ITEM_CELL_CREATIVE, "item/creative_item_cell");
         flatSingleLayer(AEItems.ITEM_CELL_HOUSING, "item/item_cell_housing");
         flatSingleLayer(AEItems.LOGIC_PROCESSOR, "item/logic_processor");
@@ -99,12 +96,10 @@ public class ItemModelProvider extends net.minecraftforge.client.model.generator
         portableCell(AEItems.PORTABLE_ITEM_CELL4K, "item", "4k");
         portableCell(AEItems.PORTABLE_ITEM_CELL16K, "item", "16k");
         portableCell(AEItems.PORTABLE_ITEM_CELL64K, "item", "64k");
-        portableCell(AEItems.PORTABLE_ITEM_CELL256K, "item", "256k");
         portableCell(AEItems.PORTABLE_FLUID_CELL1K, "fluid", "1k");
         portableCell(AEItems.PORTABLE_FLUID_CELL4K, "fluid", "4k");
         portableCell(AEItems.PORTABLE_FLUID_CELL16K, "fluid", "16k");
         portableCell(AEItems.PORTABLE_FLUID_CELL64K, "fluid", "64k");
-        portableCell(AEItems.PORTABLE_FLUID_CELL256K, "fluid", "256k");
         flatSingleLayer(AEItems.PROCESSING_PATTERN, "item/processing_pattern");
         flatSingleLayer(AEItems.QUANTUM_ENTANGLED_SINGULARITY, "item/quantum_entangled_singularity");
         flatSingleLayer(AEItems.REDSTONE_CARD, "item/card_redstone");

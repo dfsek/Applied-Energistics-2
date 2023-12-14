@@ -11,7 +11,6 @@ item_ids:
 - ae2:4k_crafting_storage
 - ae2:16k_crafting_storage
 - ae2:64k_crafting_storage
-- ae2:256k_crafting_storage
 - ae2:crafting_accelerator
 - ae2:crafting_monitor
 - ae2:crafting_unit
@@ -75,7 +74,6 @@ of the other components. They are also a base ingredient in the other components
 
   <BlockImage id="64k_crafting_storage" scale="4" />
 
-  <BlockImage id="256k_crafting_storage" scale="4" />
 </Row>
 
 (Required) Crafting storages are available in all the standard cell sizes (1k, 4k, 16k, 64k, 256k). They store the ingredients and
@@ -93,9 +91,7 @@ with more ingredients.
 
   <Row>
     <RecipeFor id="64k_crafting_storage" />
-
-    <RecipeFor id="256k_crafting_storage" />
-  </Row>
+ </Row>
 </Column>
 
 # Crafting Co-Processing Unit

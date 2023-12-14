@@ -70,8 +70,7 @@ public final class InitUpgrades {
 
         // Storage Cells
         var itemCells = List.of(
-                AEItems.ITEM_CELL_1K, AEItems.ITEM_CELL_4K, AEItems.ITEM_CELL_16K, AEItems.ITEM_CELL_64K,
-                AEItems.ITEM_CELL_256K);
+                AEItems.ITEM_CELL_1K, AEItems.ITEM_CELL_4K, AEItems.ITEM_CELL_16K, AEItems.ITEM_CELL_64K);
         for (var itemCell : itemCells) {
             Upgrades.add(AEItems.FUZZY_CARD, itemCell, 1, storageCellGroup);
             Upgrades.add(AEItems.INVERTER_CARD, itemCell, 1, storageCellGroup);
@@ -80,8 +79,7 @@ public final class InitUpgrades {
         }
 
         var fluidCells = List.of(
-                AEItems.FLUID_CELL_1K, AEItems.FLUID_CELL_4K, AEItems.FLUID_CELL_16K, AEItems.FLUID_CELL_64K,
-                AEItems.FLUID_CELL_256K);
+                AEItems.FLUID_CELL_1K, AEItems.FLUID_CELL_4K, AEItems.FLUID_CELL_16K, AEItems.FLUID_CELL_64K);
         for (var fluidCell : fluidCells) {
             Upgrades.add(AEItems.INVERTER_CARD, fluidCell, 1, storageCellGroup);
             Upgrades.add(AEItems.EQUAL_DISTRIBUTION_CARD, fluidCell, 1, storageCellGroup);
@@ -90,7 +88,7 @@ public final class InitUpgrades {
 
         var portableCells = List.of(
                 AEItems.PORTABLE_ITEM_CELL1K, AEItems.PORTABLE_ITEM_CELL4K, AEItems.PORTABLE_ITEM_CELL16K,
-                AEItems.PORTABLE_ITEM_CELL64K, AEItems.PORTABLE_ITEM_CELL256K);
+                AEItems.PORTABLE_ITEM_CELL64K);
         for (var portableCell : portableCells) {
             Upgrades.add(AEItems.FUZZY_CARD, portableCell, 1, portableCellGroup);
             Upgrades.add(AEItems.INVERTER_CARD, portableCell, 1, portableCellGroup);
@@ -101,7 +99,7 @@ public final class InitUpgrades {
 
         var portableFluidCells = List.of(
                 AEItems.PORTABLE_FLUID_CELL1K, AEItems.PORTABLE_FLUID_CELL4K, AEItems.PORTABLE_FLUID_CELL16K,
-                AEItems.PORTABLE_FLUID_CELL64K, AEItems.PORTABLE_FLUID_CELL256K);
+                AEItems.PORTABLE_FLUID_CELL64K);
         for (var portableFluidCell : portableFluidCells) {
             Upgrades.add(AEItems.INVERTER_CARD, portableFluidCell, 1, portableCellGroup);
             Upgrades.add(AEItems.EQUAL_DISTRIBUTION_CARD, portableFluidCell, 1, portableCellGroup);

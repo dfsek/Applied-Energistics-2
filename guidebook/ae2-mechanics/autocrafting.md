@@ -106,7 +106,7 @@ must be rectangular prisms with at least 1 crafting storage.
 
 Crafting CPUs are made out of:
 
-*   (Required) [Crafting storages](../items-blocks-machines/crafting_cpu_multiblock.md), available in all the standard cell sizes (1k, 4k, 16k, 64k, 256k). They store the ingredients and
+*   (Required) [Crafting storages](../items-blocks-machines/crafting_cpu_multiblock.md), available in all the standard cell sizes (1k, 4k, 16k, 64k). They store the ingredients and
     intermediate ingredients involved in a craft, so larger or more storages are required for the CPU to handle crafting jobs
     with more ingredients.
 *   (Optional) <ItemLink id="crafting_accelerator" />s, they make the system send out more ingredient batches from pattern providers.
