@@ -14,7 +14,7 @@ harvesting involves <ItemLink id="annihilation_plane" />s and <ItemLink id="stor
 break the fully grown <ItemLink id="quartz_cluster" />. They are filtered by taking advantage of the suspiciously fortunate trait that non-mature
 certus buds drop <ItemLink id="certus_quartz_dust" /> instead of dropping nothing.
 
-This farm works fully automatically with <ItemLink id="flawless_budding_quartz" />, but with flawed, chipped, and damaged
+With flawed, chipped, and damaged
 budding certus quartz you will have to replace the budding block manually. Or, as described in [Semi-Auto Certus Farm](semiauto-certus-farm.md)
 and [Advanced Certus Farm](advanced-certus-farm.md), automatically.
 

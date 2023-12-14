@@ -39,8 +39,6 @@ public enum ItemModText implements LocalizationEnum {
     SPATIAL_IO_NEVER_CAUSES_ANY_DECAY("Spatial I/O never causes any decay."),
     BUDDING_QUARTZ_CREATION_AND_WORLDGEN(
             "Budding quartz can be found in meteorites, or be regenerated using charged quartz in water."),
-    FLAWLESS_BUDDING_QUARTZ_DESCRIPTION(
-            "Flawless budding quartz never decays when growing buds. It may only be found in meteorites."),
     CRYSTAL_GROWTH_ACCELERATORS_EFFECT(
             "Powered crystal growth accelerators speed up the growth of adjacent budding quartz."),
 

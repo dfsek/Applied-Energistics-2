@@ -69,8 +69,6 @@ public class BlockDropProvider extends BlockLootSubProvider implements IAE2DataP
         return ImmutableMap.<Block, Function<Block, LootTable.Builder>>builder()
                 .put(AEBlocks.MATRIX_FRAME.block(), $ -> LootTable.lootTable())
                 .put(AEBlocks.MYSTERIOUS_CUBE.block(), BlockDropProvider::mysteriousCube)
-                // Flawless budding quartz always degrades by 1.
-                .put(AEBlocks.FLAWLESS_BUDDING_QUARTZ.block(), flawlessBuddingQuartz())
                 // Imperfect budding quartz degrades by 1 without silk touch, and does not degrade with silk touch.
                 .put(AEBlocks.FLAWED_BUDDING_QUARTZ.block(), buddingQuartz(AEBlocks.CHIPPED_BUDDING_QUARTZ))
                 .put(AEBlocks.CHIPPED_BUDDING_QUARTZ.block(), buddingQuartz(AEBlocks.DAMAGED_BUDDING_QUARTZ))
@@ -129,10 +127,6 @@ public class BlockDropProvider extends BlockLootSubProvider implements IAE2DataP
                 .when(ExplosionCondition.survivesExplosion());
 
         return LootTable.lootTable().withPool(pool);
-    }
-
-    private Function<Block, LootTable.Builder> flawlessBuddingQuartz() {
-        return b -> createSingleItemTable(AEBlocks.FLAWED_BUDDING_QUARTZ.block());
     }
 
     private Function<Block, LootTable.Builder> buddingQuartz(BlockDefinition<?> degradedVersion) {

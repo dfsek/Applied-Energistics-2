@@ -120,7 +120,6 @@ public final class AEBlocks {
             .strength(5, 150).noOcclusion();
 
     // spotless:off
-    public static final BlockDefinition<BuddingCertusQuartzBlock> FLAWLESS_BUDDING_QUARTZ = block("Flawless Budding Certus Quartz", AEBlockIds.FLAWLESS_BUDDING_QUARTZ, () -> new BuddingCertusQuartzBlock(QUARTZ_PROPERTIES.randomTicks()));
     public static final BlockDefinition<BuddingCertusQuartzBlock> FLAWED_BUDDING_QUARTZ = block("Flawed Budding Certus Quartz", AEBlockIds.FLAWED_BUDDING_QUARTZ, () -> new BuddingCertusQuartzBlock(QUARTZ_PROPERTIES.randomTicks()));
     public static final BlockDefinition<BuddingCertusQuartzBlock> CHIPPED_BUDDING_QUARTZ = block("Chipped Budding Certus Quartz", AEBlockIds.CHIPPED_BUDDING_QUARTZ, () -> new BuddingCertusQuartzBlock(QUARTZ_PROPERTIES.randomTicks()));
     public static final BlockDefinition<BuddingCertusQuartzBlock> DAMAGED_BUDDING_QUARTZ = block("Damaged Budding Certus Quartz", AEBlockIds.DAMAGED_BUDDING_QUARTZ, () -> new BuddingCertusQuartzBlock(QUARTZ_PROPERTIES.randomTicks()));

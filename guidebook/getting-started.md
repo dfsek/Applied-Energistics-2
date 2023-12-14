@@ -23,8 +23,6 @@ Once you have found a meteorite, mine into its center. You will find certus quar
 
 Mine the certus quartz clusters and any certus quartz blocks you find. You can also pick up the budding certus blocks, but without silk touch they will degrade by 1 tier.
 
-Do not break any flawless budding certus, as even with silk touch they will degrade to flawed budding certus, and it is impossible to repair them back to flawless.
-
 Also mine the Mysterious Cube in the center of the meteorite to gain all 4 inscriber presses.
 
 ## Growing Certus Quartz
@@ -37,7 +35,7 @@ Certus quartz buds will sprout from [budding certus blocks](items-blocks-machine
 growing, it will drop one <ItemLink id="certus_quartz_dust" />, unchanged by fortune. If you break a fully grown cluster, it will drop four
 <ItemLink id="certus_quartz_crystal" />s, and fortune will increase this number.
 
-There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged.
+There are 3 tiers of budding certus blocks: Flawed, Chipped, and Damaged.
 
 <GameScene zoom="4" background="transparent">
 <ImportStructure src="assets/assemblies/budding_blocks.snbt" />
@@ -49,9 +47,6 @@ a plain certus quartz block. They can be repaired (and new budding blocks create
 certus quartz block) in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
 
 <RecipeFor id="damaged_budding_quartz" />
-
-Flawless budding certus blocks will not degrade and will generate certus infinitely. However they cannot be crafted or moved
-with a pickaxe, even with silk touch. (they *can* be moved with [spatial storage](ae2-mechanics/spatial-io.md) though)
 
 By themselves, certus quartz buds grow very slowly. Luckily the <ItemLink id="growth_accelerator" /> massively
 accelerates this process when placed adjacent to the budding block. You should build a few of these as your first priority.

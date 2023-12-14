@@ -89,7 +89,6 @@ public class BlockModelProvider extends AE2BlockStateProvider {
         simpleBlock(AEBlocks.SPATIAL_PYLON.block(), models().getBuilder(modelPath(AEBlocks.SPATIAL_PYLON)));
         itemModels().cubeAll(modelPath(AEBlocks.SPATIAL_PYLON), makeId("item/spatial_pylon"));
 
-        simpleBlockAndItem(AEBlocks.FLAWLESS_BUDDING_QUARTZ);
         simpleBlockAndItem(AEBlocks.FLAWED_BUDDING_QUARTZ);
         simpleBlockAndItem(AEBlocks.CHIPPED_BUDDING_QUARTZ);
         simpleBlockAndItem(AEBlocks.DAMAGED_BUDDING_QUARTZ);

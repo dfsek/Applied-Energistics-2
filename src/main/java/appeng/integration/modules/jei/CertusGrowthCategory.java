@@ -30,8 +30,7 @@ public class CertusGrowthCategory extends ViewBasedCategory<CertusGrowthCategory
     private final List<ItemStack> BUDDING_QUARTZ_VARIANTS = List.of(
             AEBlocks.DAMAGED_BUDDING_QUARTZ.stack(),
             AEBlocks.CHIPPED_BUDDING_QUARTZ.stack(),
-            AEBlocks.FLAWED_BUDDING_QUARTZ.stack(),
-            AEBlocks.FLAWLESS_BUDDING_QUARTZ.stack());
+            AEBlocks.FLAWED_BUDDING_QUARTZ.stack());
 
     private final List<ItemStack> BUDDING_QUARTZ_DECAY_ORDER = List.of(
             AEBlocks.QUARTZ_BLOCK.stack(),
@@ -254,29 +253,6 @@ public class CertusGrowthCategory extends ViewBasedCategory<CertusGrowthCategory
                 }
             };
             /*
-             * This page explains what flawless budding quartz is.
-             */
-            case FLAWLESS_BUDDING_QUARTZ -> new View() {
-                @Override
-                public void createWidgets(WidgetFactory factory, List<Widget> widgets) {
-                    widgets.add(factory.label(22, 13, ItemModText.FLAWLESS_BUDDING_QUARTZ_DESCRIPTION.text())
-                            .bodyText()
-                            .alignLeft()
-                            .maxWidth(background.getWidth() - 20));
-                }
-
-                @Override
-                public void buildSlots(IRecipeLayoutBuilder builder) {
-                    builder.addSlot(RecipeIngredientRole.CATALYST, 1, 13)
-                            .setBackground(slotBackground, -1, -1)
-                            .addItemStack(AEBlocks.FLAWLESS_BUDDING_QUARTZ.stack());
-
-                    builder.addSlot(RecipeIngredientRole.INPUT, 1, 33)
-                            .setBackground(slotBackground, -1, -1)
-                            .addItemStack(AEItems.METEORITE_COMPASS.stack());
-                }
-            };
-            /*
              * This page explains how budding quartz can be initially found.
              */
             case BUDDING_QUARTZ_ACCELERATION -> new View() {
@@ -312,7 +288,6 @@ public class CertusGrowthCategory extends ViewBasedCategory<CertusGrowthCategory
         BUDDING_QUARTZ_DECAY,
         BUDDING_QUARTZ_MOVING,
         GETTING_BUDDING_QUARTZ,
-        FLAWLESS_BUDDING_QUARTZ,
         BUDDING_QUARTZ_ACCELERATION
     }
 }

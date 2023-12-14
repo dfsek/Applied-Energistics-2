@@ -16,9 +16,9 @@
     {
       "type": "patchouli:spotlight",
       "anchor": "budding",
-      "item": "ae2:flawless_budding_quartz",
+      "item": "ae2:flawed_budding_quartz",
       "title": "Budding Certus Quartz",
-      "text": "$(thing)Budding Certus Quartz$() comes in 4 tiers.$(br2)$(thing)Flawless$() is the best and never decays, but can only be found in Meteors.$(br2)The next 3 tiers, in descending quality, are $(thing)Flawed$(), $(thing)Chipped$(), and $(thing)Damaged$()."
+      "text": "$(thing)Budding Certus Quartz$() comes in 3 tiers.$(br2)The 3 tiers, in descending quality, are $(thing)Flawed$(), $(thing)Chipped$(), and $(thing)Damaged$()."
     },
     {
       "type": "patchouli:text",
@@ -26,7 +26,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "When broken normally any $(thing)Budding Certus Quartz$() will turn into a normal $(thing)Certus Quartz Block$(). If it is broken using $(item)Silk Touch$() then the $(thing)Budding Block$() will decay one tier. If you want $(thing)Flawless Budding Quartz$() at your base then you will need to figure out another way of moving it."
+      "text": "When broken normally any $(thing)Budding Certus Quartz$() will turn into a normal $(thing)Certus Quartz Block$(). If it is broken using $(item)Silk Touch$() then the $(thing)Budding Block$() will decay one tier."
     },
     {
       "type": "patchouli:crafting",

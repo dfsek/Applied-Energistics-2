@@ -62,7 +62,7 @@ public class BuddingCertusQuartzBlock extends AEBaseBlock {
         level.setBlockAndUpdate(targetPos, newClusterState);
 
         // Damage the budding certus block after a successful growth
-        if (this == AEBlocks.FLAWLESS_BUDDING_QUARTZ.block() || randomSource.nextInt(DECAY_CHANCE) != 0) {
+        if (randomSource.nextInt(DECAY_CHANCE) != 0) {
             return;
         }
         Block newBlock;

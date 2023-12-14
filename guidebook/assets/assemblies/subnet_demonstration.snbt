@@ -8,7 +8,7 @@
         {pos: [3, 0, 0], state: "minecraft:barrel{facing:north,open:false}", nbt: {Items: [], id: "minecraft:barrel"}},
         {pos: [3, 0, 1], state: "ae2:growth_accelerator{facing:up,powered:true}", nbt: {id: "ae2:growth_accelerator", proxy: {g: 25503L, k: -1L, p: 1}, visual: {}}},
         {pos: [4, 0, 0], state: "ae2:quartz_cluster{facing:north,waterlogged:false}"},
-        {pos: [4, 0, 1], state: "ae2:flawless_budding_quartz"},
+        {pos: [4, 0, 1], state: "ae2:flawed_budding_quartz"},
         {pos: [5, 0, 0], state: "ae2:sky_stone_tank", nbt: {amount: 0L, id: "ae2:sky_tank", variant: {fluid: "minecraft:empty"}, visual: {}}},
         {pos: [5, 0, 1], state: "ae2:growth_accelerator{facing:up,powered:true}", nbt: {id: "ae2:growth_accelerator", proxy: {g: 25503L, k: -1L, p: 1}, visual: {}}},
         {pos: [6, 0, 0], state: "minecraft:barrel{facing:north,open:false}", nbt: {Items: [], id: "minecraft:barrel"}},
@@ -52,7 +52,7 @@
     ],
     entities: [],
     palette: [
-        "ae2:flawless_budding_quartz",
+        "ae2:flawed_budding_quartz",
         "ae2:quartz_cluster{facing:north,waterlogged:false}",
         "minecraft:chipped_anvil{facing:west}",
         "ae2:charger{facing:north,spin:0}",

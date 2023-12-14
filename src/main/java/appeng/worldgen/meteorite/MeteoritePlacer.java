@@ -92,8 +92,7 @@ public final class MeteoritePlacer {
                 AEBlocks.QUARTZ_BLOCK,
                 AEBlocks.DAMAGED_BUDDING_QUARTZ,
                 AEBlocks.CHIPPED_BUDDING_QUARTZ,
-                AEBlocks.FLAWED_BUDDING_QUARTZ,
-                AEBlocks.FLAWLESS_BUDDING_QUARTZ).map(def -> def.block().defaultBlockState()).toList();
+                AEBlocks.FLAWED_BUDDING_QUARTZ).map(def -> def.block().defaultBlockState()).toList();
         this.quartzBuds = Stream.of(
                 AEBlocks.SMALL_QUARTZ_BUD,
                 AEBlocks.MEDIUM_QUARTZ_BUD,

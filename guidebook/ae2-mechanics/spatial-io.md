@@ -18,8 +18,8 @@ navigation:
 
 </GameScene>
 
-Spatial IO is a way to cut-and-paste physical volumes of space in your world. It can be used to move <ItemLink id="flawless_budding_quartz" />,
-have a room in your base where you can swap out various interiors to use it for different purposes, or even move
+Spatial IO is a way to cut-and-paste physical volumes of space in your world. It can be used to have a room in your base
+where you can swap out various interiors to use it for different purposes, or even move
 the end portal!
 
 It works by *swapping* the defined volume with an identically-sized volume in the spatial storage dimension, sending whatever's

@@ -36,7 +36,6 @@ public final class AEBlockIds {
     /// WORLDGEN/MISC
     ///
     // Budding certus quartz
-    public static final ResourceLocation FLAWLESS_BUDDING_QUARTZ = id("flawless_budding_quartz");
     public static final ResourceLocation FLAWED_BUDDING_QUARTZ = id("flawed_budding_quartz");
     public static final ResourceLocation CHIPPED_BUDDING_QUARTZ = id("chipped_budding_quartz");
     public static final ResourceLocation DAMAGED_BUDDING_QUARTZ = id("damaged_budding_quartz");
