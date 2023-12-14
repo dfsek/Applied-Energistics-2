@@ -1014,7 +1014,7 @@ public class CraftingRecipes extends AE2RecipeProvider {
                 .pattern("aba")
                 .pattern("cdc")
                 .pattern("ccc")
-                .define('a', ConventionTags.GLOWSTONE)
+                .define('a', AEItems.SKY_DUST)
                 .define('b', AEItems.CALCULATION_PROCESSOR)
                 .define('c', AEItems.CELL_COMPONENT_16K)
                 .define('d', AEBlocks.QUARTZ_GLASS)
